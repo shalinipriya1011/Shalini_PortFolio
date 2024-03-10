@@ -105,11 +105,11 @@ import {
       icon: git,
     },
     {
-      name: "figma",
+      name: "Github",
       icon: figma,
     },
     {
-      name: "docker",
+      name: "C++",
       icon: docker,
     },
   ];
@@ -129,8 +129,8 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Snapy",
+      company_name: "Web_App",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
@@ -173,34 +173,33 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      name: "ABC",
       designation: "CFO",
-      company: "Acme Co",
+      company: "ABC",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+      name: "XYZ",
       designation: "COO",
-      company: "DEF Corp",
+      company: "XYZ",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: "PYQ",
       designation: "CTO",
-      company: "456 Enterprises",
+      company: "PQR",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "Snapy",
+      description:"Built a web-based platform enabling users to search, view, and manage posts from diverse individuals, offering a convenient and efficient solution for community engagement and interaction.",
       tags: [
         {
           name: "react",
@@ -219,20 +218,19 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "PortFolio",
+      description:"Crafted a dynamic web experience featuring customizable 3D elements, interactive sections, and cohesive animations, ensuring seamless responsiveness across all devices.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "talwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Three.js",
           color: "pink-text-gradient",
         },
       ],
@@ -240,16 +238,15 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Weather Forecasting App",
+      description:"I have created a comprehensive web application that allows users to effortlessly fetch up-to-date weather information for any desired location.It also enriches the user experience by displaying atmospheric pictures corresponding to the selected location.",
       tags: [
         {
-          name: "nextjs",
+          name: "Apis",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "React",
           color: "green-text-gradient",
         },
         {

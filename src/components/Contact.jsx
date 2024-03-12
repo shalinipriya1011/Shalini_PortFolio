@@ -34,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_y4qe13y',
-        'template_urj9i5c',
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Shalini Priya",
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "shalinipriya.10.11@gmail.com",
           message: form.message,
         },
-        'lKMt6dddNCjaHdSEH'
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -62,7 +62,7 @@ const Contact = () => {
 
           alert("Ahh, something went wrong. Please try again.");
         }
-      );
+      )
   };
 
   return (

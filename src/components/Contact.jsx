@@ -60,7 +60,7 @@ const Contact = () => {
           setLoading(false);
           console.log(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert("Something went wrong. Please try again.");
         }
       )
   };
